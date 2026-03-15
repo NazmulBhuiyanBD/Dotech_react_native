@@ -14,7 +14,6 @@ import {
   View,
 } from 'react-native';
 
-// MVC Imports
 import { BottomBar } from '../src/components/BottomBar';
 import { CategoryCard } from '../src/components/CategoryCard';
 import { ProductCard } from '../src/components/ProductCard';
@@ -176,7 +175,7 @@ const styles = StyleSheet.create({
   sectionTitle: { fontSize: 18, fontWeight: 'bold', color: '#1E293B', marginBottom: 15 },
   catRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   productGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' },
-  whatsNewSection: { marginVertical: 10 },
+  whatsNewSection: { margin: 18 },
   flatListContent: { paddingLeft: 20, paddingRight: 5 },
   bannerContainer: { width: width * 0.8, height: 160, marginRight: 15, borderRadius: 15, overflow: 'hidden', backgroundColor: '#f0f0f0' },
   bannerImage: { width: '100%', height: '100%' },
